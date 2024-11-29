@@ -50,6 +50,10 @@ def main(n_estimators,max_depth):
     '''lr=ElasticNet()
     lr.fit(X_train, y_train)
     pred=lr.predict(X_test)'''
+    # mlflow.set_tracking_uri("file:///C:/Users/lalit/Desktop/python practice/MLFLOW_new/MLFlow-Demo/mlruns")
+    mlflow.set_tracking_uri("file:///C:/Users/lalit/Desktop/python practice/MLFLOW_new/MLFlow-Demo/mlruns")
+    
+    
     with mlflow.start_run():
         rf=RandomForestClassifier(n_estimators=n_estimators,max_depth=max_depth)
         rf.fit(X_train, y_train)
@@ -84,3 +88,4 @@ if __name__ == '__main__':
         main(n_estimators=parse_args.n_estimators,max_depth=parse_args.max_depth)
     except Exception as e:
         raise e
+    

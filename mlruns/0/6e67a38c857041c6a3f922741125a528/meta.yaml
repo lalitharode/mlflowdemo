@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/lalit/Desktop/python practice/MLFLOW_new/MLFlow-Demo/mlruns/0/6e67a38c857041c6a3f922741125a528/artifacts
+end_time: 1732893259346
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6e67a38c857041c6a3f922741125a528
+run_name: sedate-mole-273
+run_uuid: 6e67a38c857041c6a3f922741125a528
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732893250956
+status: 3
+tags: []
+user_id: lalit

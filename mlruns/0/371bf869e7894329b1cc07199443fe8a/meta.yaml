@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/lalit/Desktop/python practice/MLFLOW_new/MLFlow-Demo/mlruns/0/371bf869e7894329b1cc07199443fe8a/artifacts
+end_time: 1732892399807
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 371bf869e7894329b1cc07199443fe8a
+run_name: abundant-finch-310
+run_uuid: 371bf869e7894329b1cc07199443fe8a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732892399657
+status: 3
+tags: []
+user_id: lalit
